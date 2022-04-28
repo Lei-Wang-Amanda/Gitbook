@@ -23,17 +23,22 @@
 	"page-treeview",
 	"img-layer",
 	"embed-pdf",
-	"disqus"
+	"mygitalk"
     ],
     "pluginsConfig": {
         "insert-logo": {
              "url": "../../Image/icon.jpg",
-            "style": "background: none; max-height: 30px; min-height: 30px"
+              "style": "background: none; max-height: 30px; min-height: 30px"
         },
         "favicon": "./icon/book.ico",
-	"disqus": {
- 	"shortName": "NAME-FROM-DISQUS"
- 	 },
+	"mygitalk": {
+                        "clientID": "dc16e42d0a80ca0a6523",
+  	                "clientSecret": "1ab15b0b5317e4e3205ff925550099712474ee17",
+ 		"repo": "http://42.192.220.68:4000/",
+  		"owner": "Lei-Wang-Amanda",
+ 		"admin": ["Lei-Wang-Amanda"],    
+  		"distractionFreeMode": false  
+    	}
         "tbfed-pagefooter": {
             "copyright": "Copyright &copy BADT ",
             "modify_label": "该文章修订时间：",
